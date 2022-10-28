@@ -1,0 +1,370 @@
+<!-- У вас есть макет в фигме 
+1.  Нужно зарегистрироваться в фигме.
+2. Открыть макет, это сайт, с которым мы будем взаимодействовать на протяжении всей осенней школы.
+3. Вам нужно определить, какие  на сайте есть секции (header, footer, просто section с каким-то классом и тд). И прописать это в html. 
+4. Мы изучили с вами теги, нужно распределить весь материал на сайте по этим тегам. 
+5. Называем классы по бэму. 
+6. В фигме есть возможность увидеть css свойства, которые применяются к элементу, нужно их  прописать в css файле. При возможности добавить различные отступы или как то отцентровать элемент, если нужно.(не использовать свойство position!!!!)
+7. Экспортировать все картинки из фигмы и иконки, так же добавить на сайт.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Шаблон сайта ОШ</title>
+    <link rel="preload" href="css/fonts/Raleway-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="css/fonts/Raleway-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="css/fonts/Raleway-Regular.ttf" as="font" type="font/ttf" crossorigin>
+</head>
+<body>
+    <div class="main_fraim">
+        <div class="developer">DEVELOPER</div>
+        <div class="developer_box"></div>
+        <ul class="first_ul">
+            <li class="first_ul_works">Работы</li>
+            <li class="first_ul_servises">Услуги</li>
+            <li class="first_ul_process">Процесс</li>
+            <li class="first_ul_about_me">Обо мне</li>
+            <li class="first_ul_contacts">Контакты</li>
+        </ul>
+        <div class="programmer_picture1">
+            <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="170" height="170" rx="85" fill="#F1F1F1"/>
+            </svg>
+            <div class="programmer_picture_inside">
+                <object data="icons/programmer.svg"></object>          
+            </div>
+        </div>
+        <h1 class="textbox1">Сайты на Тильде, которые убеждают и продают</h1>
+        <h3 class="textbox2">Изучаем ваш бизнес. Узнаем, что важно клиентам, как вызвать доверие и довести до заявки или покупки</h3>
+        <div class="picture_one">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="64" height="64" rx="32" fill="#F1F1F1"/>
+            </svg>                
+            <div class="picture_one_inside">
+                <object data="icons/picture_one.svg"></object>
+            </div>
+        </div>
+        <div class="picture_two">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100" height="100" rx="50" fill="#F1F1F1"/>
+            </svg>
+            <div class="picture_two_inside">
+                <object data="icons/picture_two.svg"></object>
+            </div>
+        </div>
+        <div class="contactbox">
+            <div class="contactbox_punct1">
+                <div class="contactbox_punct1_text">Связаться в Telegram</div>
+            </div>
+            <div class="contactbox_punct2">
+                <div class="contactbox_punct2_arrow">
+                    <object data="icons/arrow.svg"></object>
+                </div>
+                <div class="contactbox_punct2_text">Видеопортфолио</div>
+            </div>
+        </div>
+        <div class="navigationbox">
+            <div class="navigationbox_all">
+                <div class="navigationbox_all_text">Все</div>
+            </div>
+            <div class="navigationbox_sait_for_key">
+                <div class="navigationbox_sait_for_key_text">Сайты под ключ</div>
+            </div>
+            <div class="navigationbox_work">
+                <div class="navigationbox_work_text">Разработка</div>
+            </div>
+            <div class="navigationbox_design">
+                <div class="navigationbox_design_text">Дизайн</div>
+            </div>
+        </div>
+        <div class="picturebox_one">
+            <img src="img/new_buildings.svg" width: 1160px height: 460px border: 1px solid #DBDBDB border-radius: 20px/>
+            <div class="picturebox_one_imagebox">
+                <img src="img/wathman.svg" width: 560px height: 400px border: 1px solid #DBDBDB border-radius: 20px/>
+                <img src="img/gold_century.svg" width: 560px height: 400px border: 1px solid #DBDBDB border-radius: 20px/>
+            </div>
+            <img src="img/sunrise.svg" width: 1160px height: 544px border: 1px solid #DBDBDB border-radius: 20px/>
+            <div class="picturebox_one_imagebox">
+                <img src="img/circles.svg" width: 560px height: 460px border: 1px solid #DBDBDB border-radius: 20px/>
+                <img src="img/all_items.svg" width: 560px height: 460px border: 1px solid #DBDBDB border-radius: 20px/>
+            </div>
+        </div>
+        <div class="beautiful_manbox">
+            <div class="beautiful_manbox_man">
+                <img src="img/beautiful_man.svg"/>
+            </div>
+            <div class="beautiful_manbox_cup">
+                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" rx="50" fill="#F1F1F1"/>
+                </svg>
+                <div class="beautiful_manbox_cup_inside">
+                    <object data="icons/cup.svg"></object>
+                </div>
+            </div>
+            <div class="beautiful_manbox_text_h">Designer & Developer</div>
+            <div class="beautiful_manbox_text">Меня зовут гигачад. За 3 года создания сайтов я основал свою студию, собрал людей, готовых к плотной работе. Запустили лендинг и б2б продукт для UFC. Работали с ВШЭ и МИЭМом. Запустили множество эвентовых проектов и брендинг. Готовы забирать в команду лучших, прокачивать их компетенции, и взращивать русское айти комьюнити,</div>
+            <div class="beautiful_manbox_textbox_one">
+                <div class="beautiful_manbox_textbox_text_one">40+</div>
+                <div class="beautiful_manbox_textbox_text_two">Сайтов запустили</div>
+            </div>
+            <div class="beautiful_manbox_textbox_two">
+                <div class="beautiful_manbox_textbox_text_one">100%</div>
+                <div class="beautiful_manbox_textbox_text_two">Выполнено в срок</div>
+            </div>
+            <div class="beautiful_manbox_textbox_three">
+                <div class="beautiful_manbox_textbox_text_one">10+</div>
+                <div class="beautiful_manbox_textbox_text_two">Лет опыта</div>
+            </div>
+        </div>
+        <div class="servicesbox">
+            <div class="servicesbox_service">Услуги</div>
+            <div class="servicesbox_textbox">
+                <div class="servicesbox_textbox_small">
+                    <div class="servicesbox_textbox_one">
+                        <div class="servicesbox_textbox_line"></div>
+                        <div class="servicesbox_textbox_price">От 250 000 ₽</div>
+                        <div class="servicesbox_textbox_two">
+                            <div class="servicesbox_textbox_text">Изучаем ваш бизнес. Узнаем, что важно клиентам, как вызвать доверие и довести до заявки или покупки</div>
+                            <div class="servicesbox_textbox_three">
+                                <div class="servicesbox_textbox_number">01</div>
+                                <div class="servicesbox_textbox_description">Сайты на тильде</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="servicesbox_textbox_small">
+                    <div class="servicesbox_textbox_one">
+                        <div class="servicesbox_textbox_line"></div>
+                        <div class="servicesbox_textbox_price">От 120 000 ₽</div>
+                        <div class="servicesbox_textbox_two">
+                            <div class="servicesbox_textbox_text">Если есть своя команда разработчиков или фрилансер. И нужен только дизайн сайта без разработки</div>
+                            <div class="servicesbox_textbox_three">
+                                <div class="servicesbox_textbox_number">02</div>
+                                <div class="servicesbox_textbox_description">Веб-дизайн</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="servicesbox_textbox_small">
+                    <div class="servicesbox_textbox_one">
+                        <div class="servicesbox_textbox_line"></div>
+                        <div class="servicesbox_textbox_price">От 70 000 ₽</div>
+                        <div class="servicesbox_textbox_two">
+                            <div class="servicesbox_textbox_text">Проконтролирую ваш отдел дизайна, выявлю недочеты в дизайне и процессах работы в команде. Помогу наладить коммуникацию</div>
+                            <div class="servicesbox_textbox_three">
+                                <div class="servicesbox_textbox_number">03</div>
+                                <div class="servicesbox_textbox_description">Арт-дирекшн</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="approximate_calculation">
+            <div class="approximate_calculation_text">Примерный подсчет:</div>
+            <div class="approximate_calculation_price">
+                <div class="approximate_calculation_price_text">Стоимость</div>
+                <div class="approximate_calculation_price_price">От 120 000 ₽</div>
+            </div>
+            <div class="approximate_calculation_price">
+                <div class="approximate_calculation_price_text">Примерные сроки</div>
+                <div class="approximate_calculation_price_price">14 рабочих дней</div>
+            </div>
+            <div class="approximate_calculation_botton_box">
+                <botton class="approximate_calculation_botton">
+                    <div class="approximate_calculation_botton_text">Обсудить проект</div>
+                </botton>
+            </div>
+        </div>
+        <div class="price_textbox">Подсчет стоимости</div>
+        <div class="watch_picture">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100" height="100" rx="50" fill="#F1F1F1"/>
+            </svg>
+            <div class="watch_picture_inside">
+                <object data="icons/watch.svg"></object>
+            </div>
+        </div>
+        <div class="pricebox">
+            <div class="pricebox_textbox_one">
+                <div class="pricebox_textbox_two">
+                    <div class="pricebox_textbox_two_input_one">
+                        <div class="pricebox_textbox_two_input_border">
+                            <div class="pricebox_textbox_two_input">
+                                <div class="pricebox_textbox_two_input_text">
+                                    <div class="pricebox_textbox_two_input_text_inside">Тип работы</div>
+                                    <div class="pricebox_textbox_two_input_text_inside_div">
+                                        <img src="icons/arrow_input.svg" position: absolute width: 8px height: 4px left: 2px top: 5px/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricebox_textbox_two_input_two">
+                        <div class="pricebox_textbox_two_input_border">
+                            <div class="pricebox_textbox_two_input">
+                                <div class="pricebox_textbox_two_input_text">
+                                    <div class="pricebox_textbox_two_input_text_inside">Насколько большой проект?</div>
+                                    <div class="pricebox_textbox_two_input_text_inside_div">
+                                        <img src="icons/arrow_input.svg" position: absolute width: 8px height: 4px left: 2px top: 5px/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricebox_textbox_three">
+                        <div class="pricebox_textbox_three_border">
+                            <div class="pricebox_textbox_three_checkmark_field">
+                                <div class="pricebox_textbox_three_checkmark_field_inside"></div>
+                            </div>
+                        </div>
+                        <div class="pricebox_textbox_three_text">Да, я слышал про осеннюю школу.
+                            Интересно а после нее будет егэ?</div>
+                    </div>
+                </div>
+            </div>
+            <botton class="pricebox_botton">
+                <div class="pricebox_botton_inside">
+                    <div class="pricebox_botton_inside_text">Рассчитать стоимость</div>
+                </div>
+            </botton>
+        </div>
+        <div class="programmer_picture2">
+            <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="170" height="170" rx="85" fill="#F1F1F1"/>
+            </svg>
+            <object data="icons/programmer.svg" class="programmer_picture_inside"></object>
+        </div>
+        <div class="question_background"></div>
+        <div class="question">Вопрос-ответ</div>
+        <div class="questionbox">
+            <div class="questionbox_one">
+                <div class="questionbox_one_text">Делаете только дизайн?</div>
+                <div class="questionbox_one_plusbox">
+                    <img src="icons/plus.svg" class="questionbox_one_plus"></img>
+                </div>
+            </div>
+            <div class="questionbox_two">
+                <div class="questionbox_two_textbox_one">
+                    <div class="questionbox_two_text_one">Почему тильда</div>
+                    <div class="questionbox_one_plusbox">
+                        <img src="icons/plus.svg" class="questionbox_two_plus"></img>
+                    </div>
+                </div>
+                <div class="questionbox_two_text_two">Тильда уже давно перестала быть просто конструктором. Сейчас на платформе разрабатывают уникальные лендинги и даже небольшие интернет магазины.
+
+                    А еще:
+                    Не нужен программист, тильдой легко управлять
+                    Можно менять контент самому без помощи специалиста
+                    Многие делают сайты именно на тильде. Например сбер, яндекс, и тд
+                    Можно подключить разные сервисы, формы (телеграм, мейлчамп, crm)
+                    Адекватные цены тарифов
+                </div>
+            </div>
+            <div class="questionbox_one">
+                <div class="questionbox_one_text">Какие сроки?</div>
+                <div class="questionbox_one_plusbox">
+                    <img src="icons/plus.svg" class="questionbox_one_plus"></img>
+                </div>
+            </div>
+            <div class="questionbox_one">
+                <div class="questionbox_one_text">Как происходит оплата?</div>
+                <div class="questionbox_one_plusbox">
+                    <img src="icons/plus.svg" class="questionbox_one_plus"></img>
+                </div>
+            </div>
+            <div class="questionbox_one">
+                <div class="questionbox_one_text">Сколько правок можнло внести?</div>
+                <div class="questionbox_one_plusbox">
+                    <img src="icons/plus.svg" class="questionbox_one_plus"></img>
+                </div>
+            </div>
+            <div class="questionbox_one">
+                <div class="questionbox_one_text">Работаете со срочными проектами?</div>
+                <div class="questionbox_one_plusbox">
+                    <img src="icons/plus.svg" class="questionbox_one_plus"></img>
+                </div>
+            </div>
+        </div>
+        <div class="picture_two_two">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100" height="100" rx="50" fill="#F1F1F1"/>
+            </svg>
+            <div class="picture_two_inside">
+                <object data="icons/picture_two.svg"></object>
+            </div>
+        </div>
+        <div class="picture_one_two">
+            <svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="140" rx="70" fill="#F1F1F1"/>
+            </svg>
+            <div class="picture_one_two_inside">
+                <object data="icons/picture_one_two.svg"></object>
+            </div> 
+        </div>
+        <div class="programmer_picture3">
+            <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="170" height="170" rx="85" fill="#F1F1F1"/>
+            </svg>
+            <div class="programmer_picture_inside">
+                <object data="icons/programmer.svg"></object>          
+            </div>
+        </div>
+        <div class="leave_a_request">Оставьте заявку</div>
+        <div class="myself">Я сам напишу вам, и сообщу все детали</div>
+        <div class="contacts">
+            <div class="contactsbox_one">
+                <div class="contactsbox_two">
+                    <div class="pricebox_textbox_two_input_one">
+                        <div class="pricebox_textbox_two_input_border">
+                            <div class="pricebox_textbox_two_input">
+                                <div class="pricebox_textbox_two_input_text">
+                                    <div class="pricebox_textbox_two_input_text_inside">Имя</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricebox_textbox_two_input_one">
+                        <div class="pricebox_textbox_two_input_border">
+                            <div class="pricebox_textbox_two_input">
+                                <div class="pricebox_textbox_two_input_text">
+                                    <div class="pricebox_textbox_two_input_text_inside">Почта</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricebox_textbox_two_input_one">
+                        <div class="pricebox_textbox_two_input_border">
+                            <div class="pricebox_textbox_two_input">
+                                <div class="pricebox_textbox_two_input_text">
+                                    <div class="pricebox_textbox_two_input_text_inside">Услуга</div>
+                                    <div class="pricebox_textbox_two_input_text_inside_div">
+                                        <img src="icons/arrow_input.svg" position: absolute width: 8px height: 4px left: 2px top: 5px/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactsbox_one_input">
+                        <div class="contactsbox_one_input_border">
+                            <div class="pricebox_textbox_two_input">
+                                <div class="pricebox_textbox_two_input_text">
+                                    <div class="pricebox_textbox_two_input_text_inside">Комментарий</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contactsbox_bottonbox">
+                <botton class="contactsbox_botton">
+                    <div class="approximate_calculation_botton_text">Обсудить проект</div>
+                </botton>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

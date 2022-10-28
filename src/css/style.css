@@ -1,0 +1,1524 @@
+.main_fraim{
+    position: relative;
+    width: 1440px;
+    height: 7648px;
+    background: #FFFFFF;
+}
+
+.developer {
+    position: absolute;
+    width: 58px;
+    height: 24px;
+    left: 148px;
+    top: 42px;
+    
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.developer_box {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 109px;
+    height: 32px;
+    left: 140px;
+    top: 38px;
+
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
+.first_ul LI{
+    display: inline;
+    position: absolute;
+    top: 40px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.first_ul_works {
+    width: 58px;
+    left: 497px;
+}
+
+.first_ul_servises {
+    width: 53px;
+    left: 587px;
+}
+
+.first_ul_process {
+    width: 68px;
+    left: 672px;
+}
+
+.first_ul_about_me {
+    width: 66px;
+    left: 772px;
+}
+
+.first_ul_contacts {
+    width: 73px;
+    left: 870px;
+}
+
+.programmer_picture1 {
+    position: absolute;
+    left: 1122px;
+    top: 40px;
+}
+
+.programmer_picture_inside {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 30px;
+    top: 26px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 110px;
+    line-height: 110px;
+    text-align: center;
+}
+
+.textbox1{
+    position: absolute;
+    width: 804px;
+    height: 128px;
+    left: 318px;
+    top: 184px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #181818;
+}
+
+.textbox2 {
+    position: absolute;
+    width: 484px;
+    height: 48px;
+    left: 478px;
+    top: 352px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.picture_one {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 209px;
+    top: 362px;
+
+}
+
+.picture_one_inside {
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    left: 18px;
+    top: 20px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.picture_two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1171px;
+    top: 410px;
+}
+
+.picture_two_inside {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 34px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contactbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 452px;
+    height: 56px;
+    left: 494px;
+    top: 480px;
+}
+
+.contactbox_punct1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px 17px;
+    gap: 8px;
+
+    width: 215px;
+    height: 24px;
+
+    background: #181818;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactbox_punct1_text {
+    width: 167px;
+    height: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactbox_punct2 {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px 17px;
+    gap: 12px;
+    
+    width: 221px;
+    height: 56px;
+    
+    border: 2px solid #181818;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contactbox_punct2_arrow {
+    width: 24px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactbox_punct2_text {
+    width: 137px;
+    height: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #181818;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.navigationbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 17px;
+    
+    position: absolute;
+    width: 473px;
+    height: 32px;
+    left: 483px;
+    top: 656px;
+}
+
+.navigationbox_all {
+    width: 62px;
+    height: 32px;
+    
+    background: #181818;
+    border-radius: 10000px;
+}
+
+.navigationbox_all_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+}
+.navigationbox_sait_for_key {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    width: 146px;
+    height: 32px;
+    
+    border: 1px solid #000000;
+    border-radius: 10000px;
+    text-align: center;
+}
+
+.navigationbox_sait_for_key_text {
+    width: 146px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.navigationbox_work {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 16px;
+    gap: 8px;
+    
+    width: 123px;
+    
+    border: 1px solid #000000;
+    border-radius: 10000px;
+}
+
+.navigationbox_work_text {
+    width: 91px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navigationbox_design {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 16px;
+    gap: 8px;
+    
+    width: 91px;
+    height: 32px;
+    
+    border: 1px solid #000000;
+    border-radius: 10000px;  
+}
+
+.navigationbox_design_text {
+    width: 59px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.picturebox_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 1160px;
+    height: 1984px;
+    left: 140px;
+    top: 728px;    
+}
+
+.picturebox_one_imagebox {
+    width: 1160px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.beautiful_manbox {
+    position: absolute;
+    width: 997px;
+    height: 560px;
+    left: 227px;
+    top: 2832px;
+}
+
+.beautiful_manbox_cup {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 448px;
+}
+
+.beautiful_manbox_cup_inside {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 34px;
+}
+
+.beautiful_manbox_man {
+    position: absolute;
+    width: 400px;
+    height: 560px;
+    left: 73px;
+
+    border-radius: 24px;
+}
+
+.beautiful_manbox_text_h {
+    position: absolute;
+    width: 478px;
+    height: 64px;
+    left: 513px;
+    top: 80px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+
+    letter-spacing: -0.02em;
+    
+    color: #181818;
+}
+
+.beautiful_manbox_text {
+    position: absolute;
+    width: 484px;
+    height: 168px;
+    left: 513px;
+    top: 168px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.beautiful_manbox_textbox_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 79px;
+    height: 88px;
+    left: 513px;
+    top: 400px;
+}
+
+.beautiful_manbox_textbox_text_one {
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    color: #181818;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.beautiful_manbox_textbox_text_two {
+    height: 48px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #181818;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.beautiful_manbox_textbox_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 87px;
+    height: 88px;
+    left: 656px;
+    top: 400px;
+}
+
+.beautiful_manbox_textbox_three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 46px;
+    height: 88px;
+    left: 807px;
+    top: 400px;
+}
+
+.servicesbox {
+    position: absolute;
+    width: 1440px;
+    height: 768px;
+    left: 0px;
+    top: 3512px;
+    
+    background: #181818;
+}
+
+.servicesbox_service {
+    position: absolute;
+    width: 156px;
+    height: 64px;
+    left: 642px;
+    top: 120px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+}
+
+.servicesbox_textbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 28px;
+    
+    position: absolute;
+    width: 1160px;
+    height: 384px;
+    left: 140px;
+    top: 264px;
+}
+
+.servicesbox_textbox_small {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    
+    width: 368px;
+    height: 384px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.servicesbox_textbox_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 56px;
+    
+    width: 288px;
+    height: 304px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.servicesbox_textbox_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 288px;
+    height: 168px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.servicesbox_textbox_three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 288px;
+    height: 56px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.servicesbox_textbox_number {
+    width: 288px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    color: #181818;
+    
+    opacity: 0.5;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.servicesbox_textbox_description {
+    width: 288px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #181818;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.servicesbox_textbox_text {
+    width: 288px;
+    height: 96px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #181818;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.servicesbox_textbox_price {
+    width: 288px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    color: #181818;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.servicesbox_textbox_line {
+    width: 80px;
+    height: 0px;
+    
+    opacity: 0.2;
+    border: 1px solid #181818;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.price_textbox {
+    position: absolute;
+    width: 446px;
+    height: 64px;
+    left: 497px;
+    top: 4400px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+
+    letter-spacing: -0.02em;
+    
+    color: #181818;
+}
+
+.watch_picture {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 61px;
+    top: 4532px;
+}
+
+.watch_picture_inside {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 30px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+
+    text-align: center;
+    
+    color: #000000;
+}
+
+.pricebox {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 448px;
+    height: 368px;
+    left: 496px;
+    top: 4544px;
+    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+}
+
+.pricebox_textbox_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    width: 400px;
+    height: 192px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pricebox_textbox_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 400px;
+    height: 192px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pricebox_textbox_two_input_one {
+    width: 400px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pricebox_textbox_two_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 368px;
+    height: 24px;
+    left: 16px;
+    top: 12px;
+
+    background: #FFFFFF;
+}
+
+.pricebox_textbox_two_input_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 368px;
+    height: 24px;
+
+    background: #FFFFFF;
+}
+
+.pricebox_textbox_two_input_text_inside {
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #808080;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pricebox_textbox_two_input_text_inside_div {
+    width: 12px;
+    height: 12px
+}
+
+.pricebox_textbox_two_input_border {
+    box-sizing: border-box;
+
+    width: 400px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    
+    position: absolute;
+    height: 48px;
+    
+    border: 1px solid #DBDBDB;
+    border-radius: 8px;
+}
+
+.pricebox_textbox_two_input_two {
+    width: 400px;
+    height: 48px;
+    
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pricebox_textbox_three {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 363px;
+    height: 48px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.pricebox_textbox_three_border {
+    width: 16px;
+    height: 20px
+}
+
+.pricebox_textbox_three_checkmark_field {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.pricebox_textbox_three_checkmark_field_inside {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.pricebox_textbox_three_text {
+    width: 331px;
+    height: 48px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #181818;
+ 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pricebox_botton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0px 0px;
+    gap: 8px;
+    
+    width: 400px;
+    height: 88px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pricebox_botton_inside {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px 17px;
+    gap: 8px;
+    
+    width: 400px;
+    height: 56px;
+    
+    border: 2px solid #181818;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pricebox_botton_inside_text {
+    width: 175px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #181818;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.approximate_calculation {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 400px;
+    height: 384px;
+    left: 520px;
+    top: 4904px;
+    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.approximate_calculation_text {
+    width: 318px;
+    height: 64px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 64px;
+
+    letter-spacing: -0.02em;
+    
+    color: #181818;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.approximate_calculation_price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    height: 48px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.approximate_calculation_price_text {
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #181818;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.approximate_calculation_price_price {
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #181818;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.approximate_calculation_botton_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px 0px;
+    gap: 8px;
+    
+    width: 352px;
+    height: 72px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.approximate_calculation_botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+    width: 352px;
+    height: 56px;
+    
+    background: #181818;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.approximate_calculation_botton_text {
+    width: 135px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.programmer_picture2 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 1206px;
+    top: 4655px;
+}
+
+.question_background {
+    position: absolute;
+    width: 1440px;
+    height: 1232px;
+    top: 5408px;
+    left: 0px;
+
+    background: #181818;
+}
+
+.question {
+    position: absolute;
+    width: 316px;
+    height: 64px;
+    left: 562px;
+    top: 5528px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+}
+
+.questionbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 1160px;
+    height: 848px;
+    left: 140px;
+    top: 5672px;
+}
+
+.questionbox_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    
+    width: 1160px;
+    height: 88px;
+    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+    
+    align-self: stretch;
+}
+
+.questionbox_one_text {
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 32px 40px;
+
+    color: #181818;
+}
+
+.questionbox_one_plusbox {
+    width: 16px;
+    height: 16px;
+
+    padding: 32px 40px;
+}
+
+.questionbox_one_plus {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.questionbox_two {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    
+    width: 1160px;
+    height: 328px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 16px;
+
+    align-self: stretch;
+}
+
+.questionbox_two_textbox_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    align-self: stretch;
+}
+
+.questionbox_two_text_one {
+    width: 147px;
+    height: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 32px 40px;
+
+    color: #181818;
+}
+
+.questionbox_two_plus {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+
+    transform: rotate(-45deg);
+}
+
+.questionbox_two_text_two {
+    width: 800px;
+    height: 216px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 32px;
+
+    color: #181818;
+}
+
+.picture_two_two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 111px;
+    top: 6774px;
+}
+
+.picture_one_two {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 250px;
+    top: 7392px;    
+}
+
+.picture_one_two_inside {
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    left: 42px;
+    top: 45px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 24px;
+
+    text-align: center;
+}
+
+.programmer_picture3 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 1252px;
+    top: 7156px;
+}
+
+.leave_a_request {
+    position: absolute;
+    width: 371px;
+    height: 64px;
+    left: 534px;
+    top: 6760px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+
+    letter-spacing: -0.02em;
+
+    color: #181818;
+}
+
+.myself {
+    position: absolute;
+    width: 391px;
+    height: 24px;
+    left: 524px;
+    top: 6832px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #181818;
+}
+
+.contacts {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 448px;
+    height: 552px;
+    left: 496px;
+    top: 6936px;
+    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+}
+
+.contactsbox_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    width: 400px;
+    height: 376px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactsbox_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 400px;
+    height: 376px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactsbox_one_input {
+    width: 400px;
+    height: 160px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.contactsbox_one_input_border {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    
+    position: absolute;
+    height: 160px;
+    width: 400px;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 8px;
+}
+
+.contactsbox_botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+    width: 400px;
+    height: 56px;
+    
+    background: #181818;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactsbox_bottonbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0px 0px;
+    gap: 8px;
+    
+    width: 352px;
+    height: 88px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
